@@ -1,0 +1,30 @@
+                                        CONSOLA o CONSOLE
+ 
+                  F U N C I O N E S     D E      R E G I S T R O  
+assert()Aparece un mensaje de error en la consola si la afirmacion es falsa. 
+Si la afirmacion es verdadera, no aparecera nada.(No Estandar)
+clear()Limpia la consola
+error()Muestra un mensaje de error en la consola web
+info()Emite un mensaje informativo a la consola web. en firefox y chrome, se Muestra un pequiño icono "i" junto a estos elementos
+en el registro de la consola web
+log()Muestra un mensaje en la consola web (o del interprete JavaScript)
+table()esta funcion toma un argumento obligatorio: data, que debe ser un array o un objeto. y un parametro adicional: columns y nos muestra un tabla en la consola
+warn()
+dir()
+
+
+
+                 F U N C I O N E S        D E         C O N T E O 
+
+count()
+countReset()
+
+
+                 F U N C I O N E S        D E          A G R U P A C I O N
+
+group()
+groupEnd()
+groupCollapsed()
+
+
+                 F U N C I O N E S        D E           T E M P O R I Z A C I O N 
