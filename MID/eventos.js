@@ -53,6 +53,91 @@
 // });
 
 
+// setTimeout(() => {
+// 	document.write("hola");
+// }, 2000);
+
+// const salular = () => {
+// 	document.write("Quien va a caracas ");
+// };
+
+// const terminar = setInterval(salular, 100);
+
+// setTimeout(() => {
+// 	clearInterval(terminar);
+// }, 6000);
+
+// const salular = () => {
+// 	document.write("Quien va a caracas ");
+// };
+
+// const terminar = setInterval(salular, 100);
+
+// setTimeout(() => {
+// 	clearInterval(terminar);
+// }, 6000);
+
+// try {
+// 	throw {
+// 		error: "NombreDelError",
+// 		info: "InformacionDelError",
+// 	};
+// } catch (e) {
+// 	console.log(e);
+// } finally {
+// }
+
+CallBack una funcion que llama a otra funcion
+
+// function prueba(callback) {
+// 	callback("Jonaiker");
+// }
+
+// function DimeTuNombre(dime) {
+// 	console.log(dime);
+// }
+
+// prueba(DimeTuNombre);
+
+
+
+Otra forma de hacer una funcion CallBack
+
+// function prueba(callback) {
+// 	callback("Jonaiker");
+// }
+
+// prueba((nombre) => console.log(nombre));
+
+
+// class Persona {
+// 	constructor(nombre, facebook) {
+// 		this.nombre = nombre;
+// 		this.facebook = facebook;
+// 	}
+// }
+
+// console.log(new Persona("Jonaiker", "@JonaikerJaspe"));
+
+Promise 
+
+
+// let nombre = "pedro";
+
+// const promesa = new Promise((resolve, reject) => {
+// 	if (nombre !== "pedro") reject("Lo siento ");
+// 	else resolve(nombre);
+// });
+
+// promesa
+// 	.then((resultado) => {
+// 		console.log(resultado);
+// 	})
+// 	.catch((e) => {
+// 		console.log(e);
+// 	});
+
+
 
 JavaScript ofrece una variedad de eventos que pueden ser utilizados para interactuar con la interfaz de usuario, manejar interacciones del usuario y controlar la ejecución del código. A continuación, se presenta una lista de algunos de los eventos más comunes en JavaScript:
 
